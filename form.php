@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Exercice 27</title>
+<title>Formulaire</title>
 <meta charset="utf-8" />
 </head>
 <body>
 <h1>Quizz</h1>
+
 <?php
 
 if (isset($_GET["erreur"]))
@@ -22,7 +23,7 @@ if (isset($_GET["erreur"]))
 }
 
 ?>
-<form method="post" action="exercice27_resultat.php">
+<form method="post" action="form_result.php">
 	<div>
 		<label for="q1">Quel jour sommes-nous ?</label>
 		<input type="text" name="q1" id="q1" required />

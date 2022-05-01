@@ -2,7 +2,7 @@
 
 if (empty($_POST))
 {
-	header("location:exercice27.php?erreur=form");
+	header("location:form.php?erreur=form");
 }
 
 else
@@ -13,7 +13,7 @@ else
 	
 	if ($q1 == "" or $q2 == "" or $q3 == "")
 	{
-		header("location:exercice27.php?erreur=vide");
+		header("location:form.php?erreur=vide");
 	}
 	
 	$score = 0;
@@ -56,4 +56,4 @@ else
 	}
 }
 
-?>f
+?>
